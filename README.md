@@ -36,6 +36,8 @@ The project dependencies are declared in `pyproject.toml`. The `uv.lock` file re
 | pandas | Data manipulation and analysis |
 | Matplotlib | Data visualization |
 | Seaborn | Statistical visualization built on Matplotlib |
+| SciPy | Scientific computing and statistical analysis |
+| SymPy | Symbolic mathematics and equation solving |
 
 ## Usage
 
@@ -51,13 +53,14 @@ Launch JupyterLab to work with the notebooks:
 uv run jupyter lab
 ```
 
-Lesson notebooks are stored in the `L1/` directory.
+Lesson notebooks are stored in the `L1/` and `L2/` directories.
 
 ## Project Structure
 
 ```text
 .
 ├── L1/                       # Lesson 1 notebooks
+├── L2/                       # Lesson 2 notebooks
 ├── src/
 │   └── programming_for_ds/   # Python package source
 ├── .gitignore
